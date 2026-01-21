@@ -60,6 +60,7 @@ CREATE INDEX idx_order_items_order ON order_items(order_id);
 
 These indexes reduce full table scans and improve query execution time.
 
+
 👁 Reporting View
 order_summary View
 
@@ -87,6 +88,8 @@ CALL get_customer_orders(1);
 
 
 Used to encapsulate business logic and promote reusability.
+
+
 
 🔔 Trigger & Audit Logging
 
